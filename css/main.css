@@ -110,7 +110,7 @@ h2 {
   
 h3 {
     font-size: 1.5em; 
-    margin: 15px 0;
+    margin: 0 0 15px 0;
 }
 
 h4 {
@@ -135,6 +135,7 @@ img {
    
 figure {
     margin:0;
+    text-align: center;
 }
    
 address {
@@ -240,7 +241,7 @@ footer .meet-me {
 
 footer .social-icons p {
     display: inline-block;
-    margin: 0 25px 0 0;  /*this is a bandaid for spacing, not even*/ 
+    margin: 0 15px 0 15px;  /*this is a bandaid for spacing, not even*/ 
 }
 
 footer i {
