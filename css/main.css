@@ -130,7 +130,7 @@ p {
 }
    
 img {
-    width: 60%;
+    width: 50%;
 }
    
 figure {
@@ -173,7 +173,7 @@ address {
 /**************Portfolio area************/
 
 .portfolio {
-    background-color: #ededed;
+    background-color: #f5f5f0;
     display:flex;
     justify-content: center;
     align-items: center;
@@ -194,23 +194,24 @@ address {
 /*******about me area*********************/
 
 .about {
-    background-color: #dadada;
+    background-color: #ebebe0;
     display:flex;
     justify-content: center;
-    align-items: center;
+    /* align-items: center; */
+    flex-flow: row wrap;
 }
 
-.about p {
+/* .about p {
     display:flex;
     justify-content: center;
     align-items: center;
     flex-flow: row wrap;
-}
+} */
 
 /**************footer*************************/
 
 footer {
-    background-color: #c8c8c8;
+    background-color: #e0e0d1;
     display:flex;
     justify-content: center;
     align-items: center;
@@ -241,7 +242,7 @@ footer .meet-me {
 
 footer .social-icons p {
     display: inline-block;
-    margin: 0 15px 0 15px;  /*this is a bandaid for spacing, not even*/ 
+    margin: 0 15px 0 ;  /*this is a bandaid for spacing, not even*/ 
 }
 
 footer i {
@@ -249,3 +250,69 @@ footer i {
         font-size: 1.5em;
         text-decoration: none;
 }
+
+/* ==========================================================================
+   EXAMPLE Media Queries for Responsive Design.
+   These examples override the primary ('mobile first') styles.
+   Modify as content requires.
+   ========================================================================== */
+/************************************************************/
+/************* Tablet style  here ******************/
+/************************************************************/
+
+
+@media only screen and (min-width: 768px) {
+    /* Tablet style  here */
+  
+    /*--- Genereal Styles ----*/
+    .content-wrapper {
+      max-width: 640px;
+      margin: 80px 0; 
+    }
+
+    .portfolio article {
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       flex-flow: row wrap;  
+    }
+
+    figure {
+        width: 50%;
+    }
+
+    img {
+        width: 85%;
+    }
+
+    .portfolio .portfolio-features {
+        width: 45%;
+    }
+
+    .about .content-.about-item {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-flow: row wrap;
+    }
+
+    .about .about-me {
+        width: 45%;
+    }
+}
+
+
+
+
+/************************************************************/
+  /************* Desktop style  here ************/
+/************************************************************/
+
+
+@media only screen and (min-width: 1200px) {
+
+  
+    .content-wrapper {
+      max-width: 960px;
+    }
+}   
