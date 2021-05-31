@@ -201,12 +201,6 @@ address {
     flex-flow: row wrap;
 }
 
-/* .about p {
-    display:flex;
-    justify-content: center;
-    align-items: center;
-    flex-flow: row wrap;
-} */
 
 /**************footer*************************/
 
@@ -272,13 +266,14 @@ footer i {
 
     .portfolio article {
        display: flex;
-       justify-content: center;
-       align-items: center;
-       flex-flow: row wrap;  
+       justify-content: space-between;
+       /* align-items: center;
+       flex-flow: row wrap;   */
     }
 
     figure {
         width: 50%;
+        text-align: left;
     }
 
     img {
@@ -286,18 +281,20 @@ footer i {
     }
 
     .portfolio .portfolio-features {
-        width: 45%;
+        width: 65%;
     }
 
-    .about .content-.about-item {
+    .about .about-item {
         display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-flow: row wrap;
+        justify-content: space-between;
+    }
+
+    .reviews img {
+        width: 85%;
     }
 
     .about .about-me {
-        width: 45%;
+        width: 65%;
     }
 }
 
