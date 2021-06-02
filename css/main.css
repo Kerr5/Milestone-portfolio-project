@@ -99,9 +99,9 @@ h2,
 h3, 
 h4,
 h5 {
-  font-family: 'Raleway', montserrat;  /*montserrat is in white??*/
-  font-weight: 500;
-  color: #202931;
+    font-family: 'Raleway', montserrat;  /*montserrat is in white??*/
+    font-weight: 500;
+    color: #202931;
 }
   
 h2 {
@@ -140,7 +140,7 @@ figure {
 }
    
 address {
-   font-style: normal;
+    font-style: normal;
 }
    
 .content-wrapper {
@@ -239,9 +239,9 @@ footer .social-icons p {
 }
 
 footer i {
-        color: #495867;
-        font-size: 1.5em;
-        text-decoration: none;
+    color: #495867;
+    font-size: 1.5em;
+    text-decoration: none;
 }
 
 /* ==========================================================================
@@ -259,8 +259,8 @@ footer i {
   
     /*--- Genereal Styles ----*/
     .content-wrapper {
-      max-width: 640px;
-      margin: 40px 0; 
+        max-width: 640px;
+        margin: 40px 0; 
     }
 
     .hero-area h1 {
@@ -269,8 +269,8 @@ footer i {
     }
 
     .portfolio article {
-       display: flex;
-       justify-content: space-between;
+        display: flex;
+        justify-content: space-between;
        /* align-items: center;
        flex-flow: row wrap;   */
     }
@@ -327,8 +327,8 @@ footer i {
     
     
     .content-wrapper {
-      max-width: 960px;
-      margin: 40px 0;
+        max-width: 960px;
+        margin: 40px 0;
     }
 
     .portfolio figure {
@@ -339,12 +339,5 @@ footer i {
         display: flex;
         justify-content: center;
     } 
-    /*maybe not necessary*/
-
-    /* footer .contact,
-    footer .social,
-    footer .meet-me {
-    text-align: center;
-    } */
 
 }   
