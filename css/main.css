@@ -106,6 +106,7 @@ h5 {
   
 h2 {
     font-size: 2.0em;
+    margin-top: 0;
   }
   
 h3 {
@@ -144,7 +145,7 @@ address {
    
 .content-wrapper {
     width: 90%;
-    margin-bottom: 20px;
+    margin: 40px 0;
 }
 
 /**********hero area and header**************/
@@ -159,16 +160,18 @@ address {
 }
   
 .hero-area h1 {
+    color: #C18C5d;
     font-size: 2.25em;
-    font-weight: 500; 
+    font-weight: 700; 
     line-height: 1.2;  
-    /*make this heading on the left not across entire page*/
 }
 
 .hero-area h1 span {
-    color: #C18C5D;
+    color: #C18C5d;
     font-weight: 700;
 }
+
+
 
 /**************Portfolio area************/
 
@@ -180,6 +183,9 @@ address {
     flex-flow: row wrap;
 }
 
+.portfolio .content-wrapper {
+    margin-bottom: 0;
+}
 .portfolio-items {
     display:flex;
     justify-content: center;
@@ -188,7 +194,7 @@ address {
 }
 
 .portfolio-features {
-    margin-bottom: 25px;
+    margin-bottom: 35px;
 }
 
 /*******about me area*********************/
@@ -224,6 +230,7 @@ footer .social,
 footer .meet-me {
     width: 100%;
     text-align: center;
+    margin-bottom: 35px;
 }
 
 footer .social-icons p {
@@ -254,6 +261,11 @@ footer i {
     .content-wrapper {
       max-width: 640px;
       margin: 40px 0; 
+    }
+
+    .hero-area h1 {
+        color: #ebebe0;
+        font-weight: 500;
     }
 
     .portfolio article {
@@ -299,13 +311,22 @@ footer i {
 
 
 @media only screen and (min-width: 1200px) {
+   
+    .hero-area h1 {
+        color: #202931;
+        text-align: left; 
+        width: 60%;
+        font-weight: 500;
+    }
+
 
     .portfolio .content-wrapper {
         max-width: 960px;
         margin: 20px 0;
       }
     
-    .about .content-wrapper {
+    
+    .content-wrapper {
       max-width: 960px;
       margin: 40px 0;
     }
@@ -315,16 +336,15 @@ footer i {
     }
 
     footer .footer-content {
-        /*maybe not necessary*/
         display: flex;
         justify-content: center;
-    
-    }
+    } 
+    /*maybe not necessary*/
 
-    footer .contact,
+    /* footer .contact,
     footer .social,
     footer .meet-me {
-    width: 30%;
     text-align: center;
-    }
+    } */
+
 }   
